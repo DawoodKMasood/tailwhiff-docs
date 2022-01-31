@@ -44,6 +44,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 @layer base {
   h1 {
-    @apply text-3xl font-bold mb-4 text-gray-900;
+    @apply text-4xl font-bold mb-4 text-gray-900 border-b-2 border-gray-100 pb-2 mb-0;
+  }
+  h2 {
+    @apply text-3xl font-semibold mb-4 text-gray-900 border-gray-100 mb-0;
   }
 }
