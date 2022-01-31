@@ -8,14 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Tailwhiff',
   tagline: 'Tailwind Premium Components',
-  url: 'https://tailwhiff.com/docs',
+  url: 'https://tailwhiff.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-
+  plugins: ['docusaurus-tailwindcss'],
   presets: [
     [
       'classic',
