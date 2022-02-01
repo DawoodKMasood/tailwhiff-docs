@@ -43,18 +43,14 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Tailwhiff',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Tailwhiff Logo',
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Components',
-          },
+          {to: '/docs/getting-started/quickstart', label: 'Quickstart', position: 'left'},
+          {to: '/docs/components/alerts', label: 'Components', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/DawoodKMasood/tailwhiff-docs',
@@ -112,7 +108,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Tailwhiff, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: require('prism-react-renderer/themes/dracula'),
         darkTheme: darkCodeTheme,
       },
     }),
