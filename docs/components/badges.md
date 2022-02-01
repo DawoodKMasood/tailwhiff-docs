@@ -8,6 +8,7 @@ The badge component can be used to provide users with notifications, number of u
 ## Default Badges
 Use the following examples of badge components to show notifications to users.
 
+```html
 <div class="container mx-auto">
    <div class="py-24 flex items-center justify-center bg-white mt-3">
       <p>
@@ -34,3 +35,4 @@ Use the following examples of badge components to show notifications to users.
       </button>
    </div>
 </div>
+```
