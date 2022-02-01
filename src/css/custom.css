@@ -38,15 +38,5 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@layer base {
-  h1 {
-    @apply text-5xl font-bold mb-4 text-gray-900;
-  }
-  h2 {
-    @apply text-3xl font-bold mb-4 text-gray-900;
-  }
-}
